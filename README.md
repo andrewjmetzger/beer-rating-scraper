@@ -8,5 +8,5 @@ A python-based selenium project to scrape beer ratings from various websites and
 ## Usage
 1. Clone this repository
 1. Get the [latest stable chromedriver](https://sites.google.com/a/chromium.org/chromedriver/) appropriate for your sistem and put it in the `./driver` directory
-1. Install the rtequired Python packages
+1. Install the required Python packages
 1. Run the scraper for your data source of choice
