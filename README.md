@@ -1,6 +1,6 @@
 # Beer Rating Scraper
 
-A python-based selenium project to scrape beer ratings from various websites and export them to CSV for easy viewing.
+A Python-based Selenium project to scrape beer ratings from various websites and export them to CSV for easy viewing.
 
 ## Supported Sites
 * [Tastings (Beverage Testing Institute)](http://www.tastings.com/Search-Beer.aspx)
