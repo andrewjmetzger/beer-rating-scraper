@@ -3,13 +3,15 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 
-f = open('beers.csv', 'w')
+f = open('ratings_tastings.csv', 'w')
 f.write('Score;Beer;ABV\n')
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument("user-agent=selenium-project")
+
 
 driver = webdriver.Chrome('driver/chromedriver', options=chrome_options)
 
